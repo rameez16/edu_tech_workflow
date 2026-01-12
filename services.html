@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our Services</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    /* Heading Section */
+    .services-heading {
+        background-color: #0d6efd; /* Blue */
+        padding: 60px 40px;
+        color: white;
+    }
+
+    .services-heading h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .services-heading p {
+        font-size: 18px;
+        margin-top: 10px;
+        max-width: 600px;
+    }
+
+    /* Services Content */
+    .services-content {
+        padding: 50px 40px;
+    }
+
+    .services-boxes {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .service-box {
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+        text-align: center;
+    }
+
+    .service-box h3 {
+        color: #0d6efd;
+        margin-bottom: 10px;
+    }
+
+    .service-box p {
+        color: #555;
+        font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .services-boxes {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 576px) {
+        .services-boxes {
+            grid-template-columns: 1fr;
+        }
+
+        .services-heading h1 {
+            font-size: 36px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Blue Heading Only -->
+<section class="services-heading">
+    <h1>Our Services</h1>
+    <p>
+        We offer professional training programs to help students
+        gain practical skills and build successful careers.
+    </p>
+</section>
+
+<!-- Normal Content Below -->
+<section class="services-content">
+    <div class="services-boxes">
+
+        <div class="service-box">
+            <h3>Professional Courses</h3>
+            <p>Job-oriented courses with hands-on practical training.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Expert Trainers</h3>
+            <p>Certified trainers with industry experience.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Placement Support</h3>
+            <p>Resume building, mock interviews, and job assistance.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Online & Offline Classes</h3>
+            <p>Flexible learning options for students and professionals.</p>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
