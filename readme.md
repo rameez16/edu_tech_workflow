@@ -5,11 +5,11 @@
 
 # team
 
-# ramees 
-# aleena
-# anwar
-# rinta
-# niranjana
+# ramees-home page
+# aleena-about
+# anwar-services
+# rinta-contact
+# niranjana-placements
 
 # firm  : Code Edu
 # -----------
